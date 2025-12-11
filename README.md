@@ -1,7 +1,6 @@
 
 
-==============================================================================
-README==============================================================================
+
 
 # Campus Dining Demand Optimization
 
@@ -15,19 +14,6 @@ The solution features a full ETL pipeline, a normalized SQL database, and Machin
 * SQL Database: Stores normalized data in SQLite for complex querying.
 * Machine Learning: Trains Linear Regression, Random Forest, and Gradient Boosting models.
 * Interactive Dashboard: A Streamlit web app to visualize traffic predictions and feature importance.
-
-## Folder Structure
-Dining_Demand_Optimization/
-├── data/                   # Stores generated CSVs and the SQLite database
-├── src/
-│   ├── __init__.py
-│   ├── database.py         # Defines SQL schema and connection
-│   ├── generator.py        # Simulates traffic/menu/weather data
-│   ├── etl.py              # Loads cleaned data into the DB
-│   └── model.py            # Feature engineering and model training
-├── app.py                  # Streamlit Dashboard (Frontend)
-├── main.py                 # Master script to run ETL and Model training
-└── requirements.txt        # Project dependencies
 
 ## Setup & Installation
 
